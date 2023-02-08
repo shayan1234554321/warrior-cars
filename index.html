@@ -8,22 +8,239 @@
     <link rel="stylesheet" href="./scss/index.css">
 </head>
 <body>
+    <div class="mobileItems" id="mobileItems">
+        <ul>
+            <img src="./images/cross.png" alt="" id="closeMenu">
+            <li id="aboutItemMB" >About</li>
+            <li>Program</li>
+            <li>Join</li>
+            <li>Sponsor</li>
+            <li>News</li>
+        </ul>
+    </div>
     <header>
-        <div class="logo">
-            <img src="./images/warrior.png" alt="Company Logo">
-        </div>
+        <span class="mobileMenu" id="mobileMenu">
+            <img src="./images/mobile-menu.png" alt="">
+        </span>
+        <img src="./images/warrior.png" alt="Company Logo">
         <nav>
-            <ul>
-                <li>About</li>
-                <li>Program</li>
-                <li>Join</li>
-                <li>Sponsor</li>
-                <li>News</li>
-            </ul>
-            <button class="callToAction">
-                Campains
-            </button>
+            <span class="desktopMenu">
+                <ul>
+                    <li id="aboutItem" >About</li>
+                    <li>Program</li>
+                    <li>Join</li>
+                    <li>Sponsor</li>
+                    <li>News</li>
+                </ul>
+                <button class="callToAction">
+                    Campaign
+                </button>
+            </span>
         </nav>
     </header>
+    
+    <div id="home">
+        <section class="landingPage">
+            <div>
+                <h3>"The New Release!"</h3>
+                <h1>Announcing our <br> Jaguare E-3 <br> 2023</h1>
+                <p>Worrior has released its latest electric car, the e-Type 3. This vehicle boasts a sleek design, improved driving performance, and a longer battery range.</p>
+                <h2>2023.2.7(MON) ~ 12(SAT)</h2>
+                <h4>@ F-9 Park, Panjnad Gate, Islamabad</h4>
+            </div>
+        </section>
+        <section class="mainProgram">
+            <h3>Main Program</h3>
+            <div class="tabs">
+                <div class="tab">
+                    <img src="./images/icon1.png" alt="Icon">
+                    <h4>Lecture</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consequuntur ut, </p>
+                </div>
+                <div class="tab">
+                    <img src="./images/icon2.png" alt="Icon">
+                    <h4>Exhibition</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consequuntur ut, </p>
+                </div>
+                <div class="tab">
+                    <img src="./images/icon3.png" alt="Icon">
+                    <h4>Forum</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consequuntur ut, </p>
+                </div>
+                <div class="tab">
+                    <img src="./images/icon4.png" alt="Icon">
+                    <h4>Workshop</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consequuntur ut, </p>
+                </div>
+                <div class="tab">
+                    <img src="./images/icon5.png" alt="Icon">
+                    <h4>Worrior Ignite</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consequuntur ut, </p>
+                </div>
+            </div>
+            <a href="#">SEE THE WHOLE PROGRAM</a>
+            <button>Join Worrior Global Champions 2023</button>
+        </section>
+        <section class="featured">
+            <h3>Featured Speakers</h3>
+            <div class="speakers">
+                <div class="speaker">
+                    <div class="image">
+                        <img src="/images/nouman.jpg" alt="Image of an Islamic speaker">
+                    </div>
+                    <span>
+                        <h4>Nouman Ali Khan</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Possimus voluptatum, tempora cum cumque natus ad!</p>
+                    </span>
+                </div>
+                <div class="speaker">
+                    <div class="image">
+                        <img src="/images/mufti-menk.jpeg" alt="Image of an Islamic speaker">
+                    </div>
+                    <span>
+                        <h4>Mufti Menk</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <p>Possimus voluptatum, tempora cum cumque natus ad!</p>
+                    </span>
+                </div>
+            </div>
+            <span id="moreSpeakers">
+                <div class="speakers">
+                    <div class="speaker">
+                        <div class="image">
+                            <img src="/images/raja.jpg" alt="Image of an Islamic speaker">
+                        </div>
+                        <span>
+                            <h4>Raja Zia Ul Haq</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Possimus voluptatum, tempora cum cumque natus ad!</p>
+                        </span>
+                    </div>
+                    <div class="speaker">
+                        <div class="image">
+                            <img src="/images/shayan.jpeg" alt="Image of Shayan">
+                        </div>
+                        <span>
+                            <h4>Mufti Shayan</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Possimus voluptatum, tempora cum cumque natus ad!</p>
+                        </span>
+                    </div>
+                    <div class="speaker">
+                        <div class="image">
+                            <img src="/images/khalid-bin-waleed.png" alt="Image of an Islamic Worrior">
+                        </div>
+                        <span>
+                            <h4>Khalid Bin Waleed (RA)</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Possimus voluptatum, tempora cum cumque natus ad!</p>
+                        </span>
+                    </div>
+                    <div class="speaker">
+                        <div class="image">
+                            <img src="/images/tuaha.jpg" alt="Image of an Islamic speaker">
+                        </div>
+                        <span>
+                            <h4>Tuaha Ibn Al Jaleel</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Possimus voluptatum, tempora cum cumque natus ad!</p>
+                        </span>
+                    </div>
+                </div>
+            </span>
+
+            <button id="showAllSpeakers" >More <img class="" src="./images/arrow-down.png" alt=""> </button>
+        </section>
+        <section class="contributers">
+            <h3>Partners</h3>
+            <div class="partners">
+                <div class="partner">
+                    <img src="./images/google.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="./images/addidas.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="./images/amazon.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="./images/instagram.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="./images/volswagon.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <div id="about">
+        <section class="about">
+            <div class="title">
+                Our Vehicles are loved from 2001
+            </div>
+            <p class="details">
+                Warrior is a car company that has been creating impressive vehicles since 2001.<br> Each car produced by Warrior is a testament to their commitment to excellence, incorporating the latest advancements in automotive engineering to provide drivers.<span> <br> From sporty coupes to spacious family vehicles, Warrior offers a wide range of cars to suit any lifestyle. <br> With a focus on performance, safety, and comfort, Warrior is a trusted name in the automotive industry and continues to push the boundaries of what's possible in car design.</span>
+            </p>
+            <p class="bottom">
+                Please contact us per Email for any furthure questions about our new realease 2023! <br> <a href="#">wedonthaveanemail@noreply.com</a>
+            </p>
+        </section>
+        <section class="logoDesign">
+            <h2>Warrior Global Champions 2022 Logo</h2>
+            <p>The winning logo design in the competition was a simple yet elegant creation that perfectly embodied the brand values and vision. <span> The clean lines and modern typography were eye-catching and memorable, making it an ideal representation of the company.</span> </p>
+            <div class="logo">
+                <img src="./images/warrior.png" alt="Company Logo">
+            </div>
+        </section>
+        <section class="pastEvents">
+            <h2>See our past year vehicles</h2>
+            <p>Take a look at the last two vehicle confrence which took place in Karachi and Pirpiai</p>
+            <div class="events">
+                <div class="event">
+                    <div>
+                        <h2>2013</h2>
+                        <p>The All time winner of its time</p>
+                    </div>
+                </div>
+                <div class="event">
+                    <div>
+                        <h2>2017</h2>
+                        <p>A masive beauty with elegent looks</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contributersMobile">
+            <h3>Partners</h3>
+            <div class="partners">
+                <div class="partner">
+                    <img src="./images/google.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="./images/addidas.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="./images/amazon.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="./images/instagram.png" alt="">
+                </div>
+                <div class="partner">
+                    <img src="./images/volswagon.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="footer" >
+        <div class="icon">
+            <img src="./images/mit.png" alt="">
+            MIT <br> Licensed
+        </div>
+        <div class="details">
+            <p class="title">2020 MIT License was the most popular software license found</p>
+            <p>The MIT License is a permissive free software license originating at the Massachusetts Institute of Technology in the late 1980s.As a permissive license, it puts only very limited restriction on reuse and has, therefore, high license compatibility.</p>
+        </div>
+    </footer>
 </body>
+    <script src="./index.js" ></script>
 </html>
