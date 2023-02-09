@@ -454,6 +454,7 @@ footer .details .title {
 .contributers .partners {
   display: flex;
   align-items: center;
+  list-style: none;
 }
 
 .contributers .partners .partner {
@@ -873,6 +874,7 @@ footer .details .title {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    list-style: none;
   }
 
   .contributersMobile .partners .partner {
