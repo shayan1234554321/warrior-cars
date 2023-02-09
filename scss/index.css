@@ -468,7 +468,7 @@ footer .details .title {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/images/about-bg.png);
+  background-image: url("../images/about-bg.png");
   background-position: center;
   background-size: cover;
 }
