@@ -27,7 +27,7 @@
 
 # 📖 [First Capston Project] <a name="about-project"></a>
 
-> Castop project is my first near real-work project experience in which I set up a new Github repo, added files and configured code linters before ensuring that the git/github flows worked as expected. Then I proceeded to style the content focusing on a mobile-first approach, based on an original design idea by [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance.
+> Castop project is my first near real-work project experience in which I set up a new Github repo, added files and configured code linters before ensuring that the git/github flows worked as expected. Then I proceeded to style the content focusing on a mobile-first approach.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -154,7 +154,7 @@ If you like this project please leave a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and youtube for help
+ Design by [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
