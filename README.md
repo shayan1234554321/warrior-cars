@@ -71,7 +71,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Not deployed
+> <a href="https://shayan1234554321.github.io/warrior-cars/">Live</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Loom Walkthrough <a name="live-demo"></a>
+
+> <a href="https://www.loom.com/share/32fec5cc4be54b82b4887771f9645740">Loom video</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,8 +109,6 @@ There's no command required to run the project
 No tests required or added
 
 ### Deployment
-
-You can deploy this project using:
 
 This is not a deployable project
 
