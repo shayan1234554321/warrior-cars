@@ -7,14 +7,81 @@ const showAllSpeakers = document.getElementById('showAllSpeakers');
 const moreSpeakers = document.getElementById('moreSpeakers');
 const closeMenu = document.getElementById('closeMenu');
 const menu = document.getElementById('menu');
+const speakers = document.getElementById('speakers');
+const otherSpeakers = document.getElementById('otherSpeakers');
+
+const mustSpeakers = [
+  {
+    image: './images/nouman.jpg',
+    name: 'Nouman Ali Khan',
+  },
+  {
+    image: './images/mufti-menk.jpeg',
+    name: 'Mufti Menk',
+  },
+];
+
+const OtherSpeakers = [
+  {
+    image: './images/raja.jpg',
+    name: 'Raja Zia Ul Haq',
+  },
+  {
+    image: './images/shayan.jpeg',
+    name: 'Mufti Shayan',
+  },
+  {
+    image: './images/khalid-bin-waleed.png',
+    name: 'Khalid Bin Waleed (RA)',
+  },
+  {
+    image: './images/tuaha.jpg',
+    name: 'Tuaha Ibn Al Jaleel',
+  },
+];
+
+window.addEventListener('load', (() => {
+  let toAdd = '';
+  mustSpeakers.forEach((speaker) => {
+    toAdd += `<div class="speaker">
+                <div class="image">
+                    <img src="${speaker.image}" alt="Image of an Islamic speaker">
+                </div>
+                <span>
+                    <h4>${speaker.name}</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Possimus voluptatum, tempora cum cumque natus ad!</p>
+                </span>
+               </div>`;
+  });
+  speakers.innerHTML = toAdd;
+
+  toAdd = '';
+  OtherSpeakers.forEach((speaker) => {
+    toAdd += `<div class="speaker">
+                <div class="image">
+                    <img src="${speaker.image}" alt="Image of an Islamic speaker">
+                </div>
+                <span>
+                    <h4>${speaker.name}</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p>Possimus voluptatum, tempora cum cumque natus ad!</p>
+                </span>
+               </div>`;
+  });
+
+  otherSpeakers.innerHTML = toAdd;
+}));
 
 window.addEventListener('resize', ((e) => {
   if (e.target.screen.availWidth > 768) {
     menu.style.display = 'flex';
     closeMenu.style.display = 'none';
+    moreSpeakers.style.display = 'grid';
   } else {
     closeMenu.style.display = 'block';
     menu.style.display = 'none';
+    moreSpeakers.style.display = 'none';
   }
 }));
 
