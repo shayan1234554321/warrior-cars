@@ -434,7 +434,7 @@ footer .details .title {
 }
 
 .featured .speakers .speaker span p:nth-child(2) {
-  color: #ec5242 !important;
+  color: #ec5242;
 }
 
 .contributers .partners .partner img {
@@ -595,7 +595,7 @@ footer .details .title {
 
   header img {
     width: 45px;
-    margin: 30px !important;
+    padding: 20px;
   }
 
   .headerSecondary > img {
@@ -617,16 +617,16 @@ footer .details .title {
     box-shadow: none;
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
+    height: 60px;
   }
 
   header nav {
     display: none;
   }
 
-  .menu {
-    display: flex;
+  .headerSecondary nav .menu {
     position: fixed;
-    align-items: start !important;
+    align-items: start ;
     width: 100%;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.937);
@@ -641,7 +641,7 @@ footer .details .title {
   .menu img {
     width: 20px;
     height: 20px;
-    margin-left: 0 !important;
+    padding-left: 0;
   }
 
   .menu ul {
@@ -654,9 +654,9 @@ footer .details .title {
     display: none;
   }
 
-  .menu ul li {
-    font-size: 35px !important;
-    margin: 10px 0 !important;
+  .headerSecondary nav ul li {
+    font-size: 35px;
+    margin: 10px 0;
     font-weight: 700;
   }
 
@@ -680,9 +680,9 @@ footer .details .title {
     animation: textLoads 1.7s ease-in-out;
   }
 
-  footer {
-    background-color: white !important;
-    color: black !important;
+  footer , .darkFooter {
+    background-color: white;
+    color: black;
     padding: 30px 0;
     -moz-column-gap: 20px;
     column-gap: 20px;
@@ -737,37 +737,32 @@ footer .details .title {
 
   .featured h3 {
     font-weight: 700;
-    font-size: 25px !important;
-  }
-
-  .mainProgram h3 {
-    font-size: 25px !important;
   }
 
   .landingPage div h3 {
-    font-size: 25px !important;
+    font-size: 25px;
   }
 
   .landingPage div h1 {
-    font-size: 35px !important;
+    font-size: 35px;
   }
 
   .landingPage div p {
-    width: 95% !important;
-    padding: 10px !important;
+    width: 95% ;
+    padding: 10px;
     max-width: 450px;
   }
 
   .landingPage div h2 {
-    font-size: 25px !important;
+    font-size: 25px;
   }
 
   .landingPage div h4 {
-    font-size: 16px !important;
+    font-size: 16px;
   }
 
   .mainProgram {
-    height: max-content !important;
+    height: max-content;
     width: 100%;
     padding: 30px 0;
   }
@@ -775,7 +770,7 @@ footer .details .title {
   .mainProgram .tabs {
     width: 90%;
     flex-wrap: wrap;
-    max-width: max-content !important;
+    max-width: max-content;
     height: max-content;
     row-gap: 10px;
   }
@@ -793,8 +788,8 @@ footer .details .title {
   }
 
   .mainProgram .tabs .tab h4 {
-    min-width: 80px !important;
-    margin: 0 !important;
+    min-width: 80px;
+    margin: 0;
   }
 
   .mainProgram .tabs .tab p {
@@ -820,7 +815,7 @@ footer .details .title {
   }
 
   .featured {
-    padding: 20px 0 !important;
+    padding: 20px 0 ;
   }
 
   .featured .speakers {
@@ -829,7 +824,7 @@ footer .details .title {
   }
 
   .featured .speakers .speaker {
-    margin: 10px 10px !important;
+    margin: 10px 10px;
   }
 
   .featured .speakers .speaker .image::after {
@@ -878,7 +873,7 @@ footer .details .title {
 
   .about .title {
     font-size: 35px;
-    width: 80% !important;
+    width: 80%;
     min-width: -moz-min-content;
     min-width: min-content;
     max-width: 400px;
