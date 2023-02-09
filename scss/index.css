@@ -71,7 +71,7 @@ header {
   align-items: center;
 }
 
-.headerSecondary nav .desktopMenu {
+.headerSecondary nav .menu {
   display: flex;
   align-items: center;
 }
@@ -154,6 +154,10 @@ footer .details p {
   width: 100%;
   margin: 0;
   margin-bottom: 10px;
+}
+
+#aboutItem {
+  color: #ec5242;
 }
 
 .about .title {
@@ -576,7 +580,15 @@ footer .details .title {
   color: white;
 }
 
+#closeMenu {
+  display: none;
+}
+
 @media screen and (max-width: 769px) {
+  #closeMenu {
+    display: block;
+  }
+
   .mobileMenu {
     display: block;
   }
@@ -586,7 +598,7 @@ footer .details .title {
     margin: 30px !important;
   }
 
-  .headerSecondary {
+  .headerSecondary > img {
     display: none;
   }
 
@@ -611,52 +623,60 @@ footer .details .title {
     display: none;
   }
 
-  .mobileItems {
+  .menu {
     display: flex;
     position: fixed;
+    align-items: start !important;
     width: 100%;
     height: 100vh;
-    background-color: rgba(255, 255, 255, 0.437);
-    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.937);
     backdrop-filter: blur(10px);
     top: 0;
+    left: 0;
     z-index: 20;
     padding: 30px;
+    padding-top: 0;
   }
 
-  .mobileItems img {
+  .menu img {
     width: 20px;
     height: 20px;
-    margin-bottom: 25px;
+    margin-left: 0 !important;
   }
 
-  .mobileItems ul {
+  .menu ul {
     list-style: none;
+    display: flex;
+    flex-direction: column;
   }
 
-  .mobileItems ul li {
-    font-size: 35px;
-    margin: 10px 0;
+  .callToAction {
+    display: none;
+  }
+
+  .menu ul li {
+    font-size: 35px !important;
+    margin: 10px 0 !important;
     font-weight: 700;
   }
 
-  .mobileItems ul li:nth-child(2) {
+  .menu ul li:nth-child(2) {
     animation: textLoads 0.5s ease-in-out;
   }
 
-  .mobileItems ul li:nth-child(3) {
+  .menu ul li:nth-child(3) {
     animation: textLoads 0.8s ease-in-out;
   }
 
-  .mobileItems ul li:nth-child(4) {
+  .menu ul li:nth-child(4) {
     animation: textLoads 1.1s ease-in-out;
   }
 
-  .mobileItems ul li:nth-child(5) {
+  .menu ul li:nth-child(5) {
     animation: textLoads 1.4s ease-in-out;
   }
 
-  .mobileItems ul li:nth-child(6) {
+  .menu ul li:nth-child(6) {
     animation: textLoads 1.7s ease-in-out;
   }
 
@@ -924,10 +944,6 @@ footer .details .title {
   #moreSpeakers {
     display: none;
   }
-}
-
-.mobileItems {
-  display: none;
 }
 
 @keyframes textLoads {
