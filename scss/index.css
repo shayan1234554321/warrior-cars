@@ -626,7 +626,7 @@ footer .details .title {
 
   .headerSecondary nav .menu {
     position: fixed;
-    align-items: start ;
+    align-items: start;
     width: 100%;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.937);
@@ -680,7 +680,8 @@ footer .details .title {
     animation: textLoads 1.7s ease-in-out;
   }
 
-  footer , .darkFooter {
+  footer,
+  .darkFooter {
     background-color: white;
     color: black;
     padding: 30px 0;
@@ -748,7 +749,7 @@ footer .details .title {
   }
 
   .landingPage div p {
-    width: 95% ;
+    width: 95%;
     padding: 10px;
     max-width: 450px;
   }
@@ -815,7 +816,7 @@ footer .details .title {
   }
 
   .featured {
-    padding: 20px 0 ;
+    padding: 20px 0;
   }
 
   .featured .speakers {

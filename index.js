@@ -14,14 +14,14 @@ const mustSpeakers = [
   {
     image: './images/nouman.jpg',
     name: 'Nouman Ali Khan',
-    role:"Speaker",
-    description:"A speaker presenting some stuff"
+    role: 'Speaker',
+    description: 'A speaker presenting some stuff',
   },
   {
     image: './images/mufti-menk.jpeg',
     name: 'Mufti Menk',
-    role:"Speaker",
-    description:"A speaker presenting some stuff"
+    role: 'Speaker',
+    description: 'A speaker presenting some stuff',
   },
 ];
 
@@ -29,26 +29,26 @@ const OtherSpeakers = [
   {
     image: './images/raja.jpg',
     name: 'Raja Zia Ul Haq',
-    role:"Speaker",
-    description:"A speaker presenting some stuff"
+    role: 'Speaker',
+    description: 'A speaker presenting some stuff',
   },
   {
     image: './images/shayan.jpeg',
     name: 'Mufti Shayan',
-    role:"Speaker",
-    description:"A speaker presenting some stuff"
+    role: 'Speaker',
+    description: 'A speaker presenting some stuff',
   },
   {
     image: './images/khalid-bin-waleed.png',
     name: 'Khalid Bin Waleed (RA)',
-    role:"Speaker",
-    description:"A speaker presenting some stuff"
+    role: 'Speaker',
+    description: 'A speaker presenting some stuff',
   },
   {
     image: './images/tuaha.jpg',
     name: 'Tuaha Ibn Al Jaleel',
-    role:"Speaker",
-    description:"A speaker presenting some stuff"
+    role: 'Speaker',
+    description: 'A speaker presenting some stuff',
   },
 ];
 
