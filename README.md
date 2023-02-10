@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Shayan Portfolio] <a name="about-project"></a>
+# 📖 [First Capston Project] <a name="about-project"></a>
 
-> This website is for a car development company named Worrior
+> Castop project is my first near real-work project experience in which I set up a new Github repo, added files and configured code linters before ensuring that the git/github flows worked as expected. Then I proceeded to style the content focusing on a mobile-first approach.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,14 +45,14 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a>No server</a></li>
+    <li><a>Github Pages</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a>No Database</a></li>
+    <li><a>No Database was used in this project</a></li>
   </ul>
 </details>
 
@@ -60,7 +60,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Event Dates
+> [Correct set up of GitHub Flows.]
+> [The creation and addition of HTML, CSS and JavaScript files.]
+> [Desktop-first styling based on a Behance template.]
+> [Implementation of the SCSS framework for the styling of the website.] ( SCSS file was deleted due to linter errors )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -68,19 +71,24 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Not deployed
+> <a href="https://shayan1234554321.github.io/warrior-cars/">Live</a>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Loom Walkthrough <a name="live-demo"></a>
+
+> <a href="https://www.loom.com/share/32fec5cc4be54b82b4887771f9645740">Loom video</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-Clone this project and start live server ( open index.html )
+You don't need any previous installation in order to run this project
 
 ### Setup
 
@@ -90,25 +98,19 @@ git clone https://github.com/shayan1234554321/warrior-cars.git
 
 ### Install
 
-Install this project with:
-
-npm install
+This is not an install able project
 
 ### Usage
 
-To run the project, execute the following command:
-
-Start live server ( open index.html )
+There's no command required to run the project
 
 ### Run tests
 
-No tests
+No tests required or added
 
 ### Deployment
 
-You can deploy this project using:
-
-Get a hosting website and give all of the github files
+This is not a deployable project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -128,7 +130,7 @@ Get a hosting website and give all of the github files
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Not features in near future
+> [Enrichment of the project HTML files and its respective content sections]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,7 +138,7 @@ Get a hosting website and give all of the github files
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-All issues are welcomed !1 You can contribute by an creating an issue.
+All issues are welcomed !! You can contribute by creating an issue.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,7 +154,7 @@ If you like this project please leave a ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse and youtube for help
+ Design by [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
