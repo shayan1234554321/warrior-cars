@@ -1,6 +1,5 @@
 const aboutItem = document.getElementById('aboutItem');
 const about = document.getElementById('about');
-const home = document.getElementById('home');
 const footer = document.getElementById('footer');
 const mobileMenu = document.getElementById('mobileMenu');
 const showAllSpeakers = document.getElementById('showAllSpeakers');
@@ -97,22 +96,8 @@ window.addEventListener('resize', ((e) => {
   }
 }));
 
-aboutItem.addEventListener('click', () => {
-  if (home.style.display === 'none') {
-    home.style.display = 'block';
-    about.style.display = 'none';
-    aboutItem.innerHTML = 'About';
-  } else {
-    home.style.display = 'none';
-    about.style.display = 'block';
-    aboutItem.innerHTML = 'Home';
-  }
-  if (window.screen.availWidth < 769) {
-    menu.style.display = 'none';
-  }
-  footer.classList.toggle('darkFooter');
-});
 mobileMenu.addEventListener('click', () => {
+  console.log("first")
   menu.style.display = 'flex';
 });
 closeMenu.addEventListener('click', () => {
