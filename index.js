@@ -1,7 +1,3 @@
-const aboutItem = document.getElementById('aboutItem');
-const about = document.getElementById('about');
-const home = document.getElementById('home');
-const footer = document.getElementById('footer');
 const mobileMenu = document.getElementById('mobileMenu');
 const showAllSpeakers = document.getElementById('showAllSpeakers');
 const moreSpeakers = document.getElementById('moreSpeakers');
@@ -52,7 +48,7 @@ const OtherSpeakers = [
   },
 ];
 
-window.addEventListener('load', (() => {
+window.addEventListener('load', () => {
   let toAdd = '';
   mustSpeakers.forEach((speaker) => {
     toAdd += `<div class="speaker">
@@ -83,9 +79,9 @@ window.addEventListener('load', (() => {
   });
 
   otherSpeakers.innerHTML = toAdd;
-}));
+});
 
-window.addEventListener('resize', ((e) => {
+window.addEventListener('resize', (e) => {
   if (e.target.screen.availWidth > 768) {
     menu.style.display = 'flex';
     closeMenu.style.display = 'none';
@@ -95,23 +91,8 @@ window.addEventListener('resize', ((e) => {
     menu.style.display = 'none';
     moreSpeakers.style.display = 'none';
   }
-}));
-
-aboutItem.addEventListener('click', () => {
-  if (home.style.display === 'none') {
-    home.style.display = 'block';
-    about.style.display = 'none';
-    aboutItem.innerHTML = 'About';
-  } else {
-    home.style.display = 'none';
-    about.style.display = 'block';
-    aboutItem.innerHTML = 'Home';
-  }
-  if (window.screen.availWidth < 769) {
-    menu.style.display = 'none';
-  }
-  footer.classList.toggle('darkFooter');
 });
+
 mobileMenu.addEventListener('click', () => {
   menu.style.display = 'flex';
 });

@@ -38,6 +38,11 @@ header {
   padding-right: 150px;
 }
 
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
 .links ul {
   width: 100%;
   list-style: none;
@@ -49,11 +54,16 @@ header {
   column-gap: 20px;
 }
 
+nav img {
+  width: 60px;
+  margin-right: 8vw;
+}
+
 .links img {
   height: 15px;
 }
 
-.headerSecondary {
+nav {
   display: flex;
   width: 100%;
   align-items: center;
@@ -61,38 +71,23 @@ header {
   height: 70px;
 }
 
-.headerSecondary img {
-  width: 60px;
-  margin-right: 8vw;
-}
-
-.headerSecondary nav {
+nav .menu {
   display: flex;
   align-items: center;
 }
 
-.headerSecondary nav .menu {
-  display: flex;
-  align-items: center;
-}
-
-.headerSecondary nav ul {
-  display: flex;
-  list-style: none;
-}
-
-.headerSecondary nav ul li {
+nav ul li {
   cursor: pointer;
   font-size: 16px;
   margin: 0 30px;
   transition: 0.3s ease-in-out;
 }
 
-.headerSecondary nav ul li:hover {
+nav ul li:hover {
   color: #ec5242;
 }
 
-.headerSecondary nav .callToAction {
+nav .callToAction {
   cursor: pointer;
   margin-left: 50px;
   padding: 10px 20px;
@@ -103,7 +98,20 @@ header {
   transition: 0.3s ease-in-out;
 }
 
-.headerSecondary nav .callToAction:hover {
+.mainProgram a {
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.514);
+}
+
+nav .mainItem a {
+  text-decoration: none;
+  color: #ec5242;
+  font-weight: bold;
+}
+
+nav .callToAction:hover {
   background-color: #ec5242;
   color: white;
 }
@@ -341,13 +349,6 @@ footer .details .title {
 
 .mainProgram .tabs .tab:hover {
   border-color: white;
-}
-
-.mainProgram a {
-  text-decoration: none;
-  color: white;
-  margin-top: 40px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.514);
 }
 
 .mainProgram button {
@@ -598,7 +599,7 @@ footer .details .title {
     padding: 20px;
   }
 
-  .headerSecondary > img {
+  nav > img {
     display: none;
   }
 
@@ -620,11 +621,7 @@ footer .details .title {
     height: 60px;
   }
 
-  header nav {
-    display: none;
-  }
-
-  .headerSecondary nav .menu {
+  nav .menu {
     position: fixed;
     align-items: start;
     width: 100%;
@@ -654,7 +651,7 @@ footer .details .title {
     display: none;
   }
 
-  .headerSecondary nav ul li {
+  nav ul li {
     font-size: 35px;
     margin: 10px 0;
     font-weight: 700;
