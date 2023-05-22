@@ -38,6 +38,11 @@ header {
   padding-right: 150px;
 }
 
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
 .links ul {
   width: 100%;
   list-style: none;
@@ -47,6 +52,11 @@ header {
   align-items: center;
   height: 100%;
   column-gap: 20px;
+}
+
+nav img {
+  width: 60px;
+  margin-right: 8vw;
 }
 
 .links img {
@@ -61,19 +71,9 @@ nav {
   height: 70px;
 }
 
-nav img {
-  width: 60px;
-  margin-right: 8vw;
-}
-
 nav .menu {
   display: flex;
   align-items: center;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
 }
 
 nav ul li {
@@ -98,7 +98,14 @@ nav .callToAction {
   transition: 0.3s ease-in-out;
 }
 
-nav .mainItem a{
+.mainProgram a {
+  text-decoration: none;
+  color: white;
+  margin-top: 40px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.514);
+}
+
+nav .mainItem a {
   text-decoration: none;
   color: #ec5242;
   font-weight: bold;
@@ -342,13 +349,6 @@ footer .details .title {
 
 .mainProgram .tabs .tab:hover {
   border-color: white;
-}
-
-.mainProgram a {
-  text-decoration: none;
-  color: white;
-  margin-top: 40px;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.514);
 }
 
 .mainProgram button {
@@ -619,10 +619,6 @@ footer .details .title {
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
     height: 60px;
-  }
-
-  header nav > img{
-    display: none;
   }
 
   nav .menu {

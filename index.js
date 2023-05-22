@@ -1,6 +1,3 @@
-const aboutItem = document.getElementById('aboutItem');
-const about = document.getElementById('about');
-const footer = document.getElementById('footer');
 const mobileMenu = document.getElementById('mobileMenu');
 const showAllSpeakers = document.getElementById('showAllSpeakers');
 const moreSpeakers = document.getElementById('moreSpeakers');
@@ -51,7 +48,7 @@ const OtherSpeakers = [
   },
 ];
 
-window.addEventListener('load', (() => {
+window.addEventListener('load', () => {
   let toAdd = '';
   mustSpeakers.forEach((speaker) => {
     toAdd += `<div class="speaker">
@@ -82,9 +79,9 @@ window.addEventListener('load', (() => {
   });
 
   otherSpeakers.innerHTML = toAdd;
-}));
+});
 
-window.addEventListener('resize', ((e) => {
+window.addEventListener('resize', (e) => {
   if (e.target.screen.availWidth > 768) {
     menu.style.display = 'flex';
     closeMenu.style.display = 'none';
@@ -94,10 +91,9 @@ window.addEventListener('resize', ((e) => {
     menu.style.display = 'none';
     moreSpeakers.style.display = 'none';
   }
-}));
+});
 
 mobileMenu.addEventListener('click', () => {
-  console.log("first")
   menu.style.display = 'flex';
 });
 closeMenu.addEventListener('click', () => {
